@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Flipkart suite]">
+  <parameter name="appURL" value="https://google.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.flipkart.qa.base.ExtentReportListener"/>
+  </listeners>
+  <test name="Flipkart Test(failed)">
+    <classes>
+      <class name="com.flipkart.qa.testcases.FlipkartCheckOutPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.FlipkartCheckOutPageTest -->
+      <class name="com.flipkart.qa.testcases.FlipkartLoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.FlipkartLoginPageTest -->
+      <class name="com.flipkart.qa.testcases.FlipkartCartPageTest">
+        <methods>
+          <include name="flipkartProceedToCheckoutTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.FlipkartCartPageTest -->
+      <class name="com.flipkart.qa.testcases.FlipkartHomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.FlipkartHomePageTest -->
+      <class name="com.flipkart.qa.testcases.FlipkartItemDetailsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.FlipkartItemDetailsPageTest -->
+    </classes>
+  </test> <!-- Flipkart Test(failed) -->
+</suite> <!-- Failed suite [Flipkart suite] -->

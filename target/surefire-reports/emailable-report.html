@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Flipkart Test</td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">172.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Flipkart Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.flipkart.qa.testcases.FlipkartCartPageTest</td><td><a href="#m1"><b>flipkartProceedToCheckoutTest</b>  </a></td><td class="numi">1</td><td>1616064045448</td><td class="numi">1037</td></tr>
+<tr><th colspan="4">Flipkart Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.flipkart.qa.testcases.FlipkartCheckOutPageTest</td><td><a href="#m2"><b>flipkartCheckOutTest</b>  </a></td><td class="numi">1</td><td>1616064081162</td><td class="numi">3861</td></tr>
+<tr class="passedeven"><td rowspan="4">com.flipkart.qa.testcases.FlipkartHomePageTest</td><td><a href="#m3"><b>flipkartHomePageLogoTest</b>  </a></td><td class="numi">1</td><td>1616063944972</td><td class="numi">100</td></tr><tr class="passedeven"><td><a href="#m4"><b>flipkartHomePageSearchProductAndSelectTest</b>  </a></td><td class="numi">1</td><td>1616063956583</td><td class="numi">15527</td></tr><tr class="passedeven"><td><a href="#m5"><b>flipkartHomePageTitleTest</b>  </a></td><td class="numi">1</td><td>1616063980303</td><td class="numi">53</td></tr><tr class="passedeven"><td><a href="#m6"><b>flipkartHomePageUserDetailsTest</b>  </a></td><td class="numi">1</td><td>1616063990870</td><td class="numi">3663</td></tr>
+<tr class="passedodd"><td rowspan="1">com.flipkart.qa.testcases.FlipkartItemDetailsPageTest</td><td><a href="#m7"><b>flipkartItemDetailsPageAddToCartTest</b>  </a></td><td class="numi">1</td><td>1616064015347</td><td class="numi">4242</td></tr>
+<tr class="passedeven"><td rowspan="2">com.flipkart.qa.testcases.FlipkartLoginPageTest</td><td><a href="#m8"><b>flipkartLoginTest</b>  </a></td><td class="numi">1</td><td>1616063922170</td><td class="numi">1781</td></tr><tr class="passedeven"><td><a href="#m9"><b>loginLogoTest</b>  </a></td><td class="numi">1</td><td>1616063934895</td><td class="numi">158</td></tr>
+</table>
+<h1>Flipkart Test</h1>
+<h2 id="m1">com.flipkart.qa.testcases.FlipkartCartPageTest:flipkartProceedToCheckoutTest</h2>
+<div style="padding-left:3em">
+<p>stale element reference: element is not attached to the page document
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SREEKUMAR&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b9824bff67d832edbb43ab8cf61a8214</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+<br/>at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+<br/>at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+<br/>at com.flipkart.qa.util.TestUtil.explicitWaitUntilElementClickable(TestUtil.java:85)
+<br/>at com.flipkart.qa.pages.FlipkartCartPage.clickPlaceOrderButton(FlipkartCartPage.java:25)
+<br/>at com.flipkart.qa.testcases.FlipkartCartPageTest.flipkartProceedToCheckoutTest(FlipkartCartPageTest.java:52)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.flipkart.qa.testcases.FlipkartHomePageTest:flipkartHomePageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.flipkart.qa.testcases.FlipkartCheckOutPageTest:flipkartCheckOutTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.flipkart.qa.testcases.FlipkartHomePageTest:flipkartHomePageSearchProductAndSelectTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.flipkart.qa.testcases.FlipkartHomePageTest:flipkartHomePageUserDetailsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.flipkart.qa.testcases.FlipkartItemDetailsPageTest:flipkartItemDetailsPageAddToCartTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.flipkart.qa.testcases.FlipkartHomePageTest:flipkartHomePageLogoTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.flipkart.qa.testcases.FlipkartLoginPageTest:loginLogoTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.flipkart.qa.testcases.FlipkartLoginPageTest:flipkartLoginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
