@@ -10,7 +10,6 @@
     <classes>
       <class name="com.flipkart.qa.testcases.FlipkartCartPageTest">
         <methods>
-          <include name="flipkartProceedToCheckoutTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
@@ -35,6 +34,7 @@
       </class> <!-- com.flipkart.qa.testcases.FlipkartHomePageTest -->
       <class name="com.flipkart.qa.testcases.FlipkartCheckOutPageTest">
         <methods>
+          <include name="tearDown"/>
           <include name="flipkartCheckOutTest"/>
           <include name="setup"/>
         </methods>

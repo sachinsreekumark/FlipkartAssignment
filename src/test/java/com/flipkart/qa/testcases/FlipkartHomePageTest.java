@@ -75,7 +75,7 @@ public class FlipkartHomePageTest extends TestBase {
 	public void flipkartHomePageSearchProductAndSelectTest() throws IOException, InterruptedException
 	{
 		
-		
+		Thread.sleep(5000);;
 		FlipkartItemDetailsPage=FlipkartHomePage.searchProductAndSelect();
 		
 		

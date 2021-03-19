@@ -42,7 +42,9 @@ public class FlipkartCheckOutPage extends TestBase {
 		Map<String, String> map = TestUtil.getFlipkartTestData();
 		deliverHereButton.click();
 		continueButton.click();
+		Thread.sleep(5000);
 		newCardRadioButtion.click();
+		Thread.sleep(5000);
 		cardNumber.sendKeys(map.get("Card_Number"));
 		if (notValidCardErrorMessage.isDisplayed())
 		{

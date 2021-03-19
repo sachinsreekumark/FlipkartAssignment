@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="174.068" tests="9" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="245.261" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire8927490656556582962\surefirebooter8476713023280534076.jar C:\Users\Administrator\AppData\Local\Temp\surefire8927490656556582962 2021-03-18T16-08-31_264-jvmRun1 surefire353999704612394786tmp surefire_08406406248445506256tmp"/>
+    <property name="sun.java.command" value="C:\Users\Administrator\AppData\Local\Temp\surefire4925787006251426855\surefirebooter3055948046772066970.jar C:\Users\Administrator\AppData\Local\Temp\surefire4925787006251426855 2021-03-19T16-00-18_940-jvmRun1 surefire2088393012774219739tmp surefire_0391068707727326437tmp"/>
     <property name="surefire.test.class.path" value="D:\eclipse workspace\FlipkartAutomationTest\target\test-classes;D:\eclipse workspace\FlipkartAutomationTest\target\classes;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Administrator\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Administrator\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Administrator\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Administrator\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Administrator\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Administrator\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Administrator\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Administrator\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Administrator\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Administrator\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Administrator\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Administrator\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Administrator\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Administrator\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\Administrator\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Administrator\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Administrator\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Administrator"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire8927490656556582962\surefirebooter8476713023280534076.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Administrator\AppData\Local\Temp\surefire4925787006251426855\surefirebooter3055948046772066970.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,12 +61,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="flipkartLoginTest" classname="com.flipkart.qa.testcases.FlipkartLoginPageTest" time="1.721">
+  <testcase name="flipkartLoginTest" classname="com.flipkart.qa.testcases.FlipkartLoginPageTest" time="2.795">
     <system-out><![CDATA[Directory already exists: D:\eclipse workspace\FlipkartAutomationTest\TestReport
 Directory already exists: D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots
 D:\eclipse workspace\FlipkartAutomationTest\TestReport\Extent-Report.html
 *** Test Suite Flipkart Test started ***
 D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartCheckOutTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartHomePageLogoTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartHomePageSearchProductAndSelectTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartHomePageTitleTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartHomePageUserDetailsTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartItemDetailsPageAddToCartTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartLoginTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\flipkartProceedToCheckoutTest.png
+D:\eclipse workspace\FlipkartAutomationTest\TestReport\Screenshots\loginLogoTest.png
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
 *** Running test method flipkartLoginTest...
@@ -76,19 +84,19 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (f7b8d11fc2407a9f9feeee69e760c8f1)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (f7b8d11fc2407a9f9feeee69e760c8f1)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (8f79c25e998dedbe654f185f1494b79d)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (8f79c25e998dedbe654f185f1494b79d)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 18609
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 18160
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616063916.752][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:08:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149826.637][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:00:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginLogoTest" classname="com.flipkart.qa.testcases.FlipkartLoginPageTest" time="0.035">
+  <testcase name="loginLogoTest" classname="com.flipkart.qa.testcases.FlipkartLoginPageTest" time="0.109">
     <system-out><![CDATA[*** Executed flipkartLoginTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
@@ -96,16 +104,16 @@ Navigated to:'https://www.flipkart.com/'
 Trying to find Element By : By.xpath: //span[@class='_36KMOx']
 Found Element By : By.xpath: //span[@class='_36KMOx']
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 4668
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 47263
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616063929.123][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:08:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149843.736][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:00:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="flipkartHomePageLogoTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="0.084">
+  <testcase name="flipkartHomePageLogoTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="0.087">
     <system-out><![CDATA[*** Executed loginLogoTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
@@ -115,22 +123,22 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (d6847103eb2ca765d422269f9a6b4bb1)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (d6847103eb2ca765d422269f9a6b4bb1)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (e2bf6c796e4d675da7de4912ed52ddb8)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (e2bf6c796e4d675da7de4912ed52ddb8)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 *** Running test method flipkartHomePageLogoTest...
 Trying to find Element By : By.xpath: //img[@title='Flipkart']
 Found Element By : By.xpath: //img[@title='Flipkart']
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 42464
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 34394
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616063938.456][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:08:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149856.124][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:00:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="flipkartHomePageSearchProductAndSelectTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="15.503">
+  <testcase name="flipkartHomePageSearchProductAndSelectTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="13.877">
     <system-out><![CDATA[*** Executed flipkartHomePageLogoTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
@@ -140,29 +148,34 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (f7085e09e92ebd3e36426d74833901ad)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (f7085e09e92ebd3e36426d74833901ad)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (57b79c9d554f13d3a7e2e26f244e3c91)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (57b79c9d554f13d3a7e2e26f244e3c91)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 *** Running test method flipkartHomePageSearchProductAndSelectTest...
 Trying to find Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Found Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Trying to find Element By : By.xpath: //button[@class='L0Z3Pu']
 Found Element By : By.xpath: //button[@class='L0Z3Pu']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (f7085e09e92ebd3e36426d74833901ad)] -> xpath: //button[@class='L0Z3Pu']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (f7085e09e92ebd3e36426d74833901ad)] -> xpath: //button[@class='L0Z3Pu']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (57b79c9d554f13d3a7e2e26f244e3c91)] -> xpath: //button[@class='L0Z3Pu']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (57b79c9d554f13d3a7e2e26f244e3c91)] -> xpath: //button[@class='L0Z3Pu']]
 Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
+Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
+Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (57b79c9d554f13d3a7e2e26f244e3c91)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (57b79c9d554f13d3a7e2e26f244e3c91)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
 There are no children
+The child window is CDwindow-88D7E43FFF3E2E6CD4FF50BA8C825BAB
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 37939
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 3121
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616063950.057][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:09:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149869.070][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:01:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="flipkartHomePageTitleTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="0.017">
+  <testcase name="flipkartHomePageTitleTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="0.079">
     <system-out><![CDATA[*** Executed flipkartHomePageSearchProductAndSelectTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
@@ -172,20 +185,20 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (1ee0e664707f53bf63d197600e237cac)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (1ee0e664707f53bf63d197600e237cac)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (a876afbd58e436ccdb9681c1e321c011)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (a876afbd58e436ccdb9681c1e321c011)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 *** Running test method flipkartHomePageTitleTest...
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 18371
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 34266
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616063974.981][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:09:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149898.864][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:01:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="flipkartHomePageUserDetailsTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="3.643">
+  <testcase name="flipkartHomePageUserDetailsTest" classname="com.flipkart.qa.testcases.FlipkartHomePageTest" time="3.803">
     <system-out><![CDATA[*** Executed flipkartHomePageTitleTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
@@ -195,22 +208,22 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf203456f5f3a70f9a1ead941c68598d)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf203456f5f3a70f9a1ead941c68598d)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (da94101d7adf700c7b62703ace092255)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (da94101d7adf700c7b62703ace092255)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 *** Running test method flipkartHomePageUserDetailsTest...
 Trying to find Element By : By.xpath: //div[text()='Sachin']
 Found Element By : By.xpath: //div[text()='Sachin']
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 47284
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 40058
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616063984.346][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:09:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149915.730][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:01:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="flipkartItemDetailsPageAddToCartTest" classname="com.flipkart.qa.testcases.FlipkartItemDetailsPageTest" time="4.234">
+  <testcase name="flipkartItemDetailsPageAddToCartTest" classname="com.flipkart.qa.testcases.FlipkartItemDetailsPageTest" time="5.497">
     <system-out><![CDATA[*** Executed flipkartHomePageUserDetailsTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
@@ -220,49 +233,38 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 Trying to find Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Found Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Trying to find Element By : By.xpath: //button[@class='L0Z3Pu']
 Found Element By : By.xpath: //button[@class='L0Z3Pu']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //button[@class='L0Z3Pu']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //button[@class='L0Z3Pu']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //button[@class='L0Z3Pu']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //button[@class='L0Z3Pu']]
 Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
 There are no children
-The child window is CDwindow-5A85E9E04292F4B1C501F00372750063
+The child window is CDwindow-328F92E321CD26D3FFD71661860418D3
 *** Running test method flipkartItemDetailsPageAddToCartTest...
 Trying to find Element By : By.xpath: //button[text()='GO TO CART']
 Found Element By : By.xpath: //button[text()='GO TO CART']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //button[text()='GO TO CART']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (5ecca917adc536b946e0b35ed3be67c9)] -> xpath: //button[text()='GO TO CART']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //button[text()='GO TO CART']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (722d32bfaf69ce5cb477360696664a5e)] -> xpath: //button[text()='GO TO CART']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 35322
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 18337
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616063997.723][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:09:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149932.020][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:02:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="flipkartProceedToCheckoutTest" classname="com.flipkart.qa.testcases.FlipkartCartPageTest" time="1.061">
-    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SREEKUMAR&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b9824bff67d832edbb43ab8cf61a8214" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SREEKUMAR', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b9824bff67d832edbb43ab8cf61a8214
-	at com.flipkart.qa.testcases.FlipkartCartPageTest.flipkartProceedToCheckoutTest(FlipkartCartPageTest.java:52)
-]]></failure>
+  <testcase name="flipkartProceedToCheckoutTest" classname="com.flipkart.qa.testcases.FlipkartCartPageTest" time="12.548">
     <system-out><![CDATA[*** Executed flipkartItemDetailsPageAddToCartTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
@@ -272,51 +274,48 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 Trying to find Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Found Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Trying to find Element By : By.xpath: //button[@class='L0Z3Pu']
 Found Element By : By.xpath: //button[@class='L0Z3Pu']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //button[@class='L0Z3Pu']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //button[@class='L0Z3Pu']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[@class='L0Z3Pu']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[@class='L0Z3Pu']]
 Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
 There are no children
-The child window is CDwindow-FF20DAC2096D26EBC9F60CEC3F185863
+The child window is CDwindow-B325ABC6967E40B682DCFA3E3C7DAEBA
 Trying to find Element By : By.xpath: //button[text()='GO TO CART']
 Found Element By : By.xpath: //button[text()='GO TO CART']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //button[text()='GO TO CART']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (b9824bff67d832edbb43ab8cf61a8214)] -> xpath: //button[text()='GO TO CART']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[text()='GO TO CART']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[text()='GO TO CART']]
 *** Running test method flipkartProceedToCheckoutTest...
 inside wait
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
-Exception occured: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SREEKUMAR', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56886}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b9824bff67d832edbb43ab8cf61a8214
+Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
+Found Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
+Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
+Found Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1ff406cdcd901f35b09dc987aadc3568)] -> xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 43846
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 14831
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616064022.927][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:10:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616149964.725][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:02:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="flipkartCheckOutTest" classname="com.flipkart.qa.testcases.FlipkartCheckOutPageTest" time="3.77">
-    <system-out><![CDATA[*** Test execution flipkartProceedToCheckoutTest failed...
-flipkartProceedToCheckoutTest failed!
+  <testcase name="flipkartCheckOutTest" classname="com.flipkart.qa.testcases.FlipkartCheckOutPageTest" time="12.378">
+    <system-out><![CDATA[*** Executed flipkartProceedToCheckoutTest test successfully...
 Before navigating to: 'https://www.flipkart.com/'
 Navigated to:'https://www.flipkart.com/'
 Trying to find Element By : By.xpath: //input[@class='_2IX_2- VJZDxU']
@@ -325,26 +324,26 @@ Trying to find Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Found Element By : By.xpath: //input[@class='_2IX_2- _3mctLh VJZDxU']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[@class='_2KpZ6l _2HKlqd _3AWRsL']]
 Trying to find Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Found Element By : By.xpath: //input[@class='_3704LK' and @title='Search for products, brands and more']
 Trying to find Element By : By.xpath: //button[@class='L0Z3Pu']
 Found Element By : By.xpath: //button[@class='L0Z3Pu']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[@class='L0Z3Pu']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[@class='L0Z3Pu']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[@class='L0Z3Pu']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[@class='L0Z3Pu']]
 Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Trying to find Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
 Found Element By : By.xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //div[text()='APPLE iPhone 11 (White, 64 GB)']]
 There are no children
-The child window is CDwindow-A3D58EAF2087EFCE552DA3C6E6F906A1
+The child window is CDwindow-21B332512DCBCBF19E1D82F13AC90D05
 Trying to find Element By : By.xpath: //button[text()='GO TO CART']
 Found Element By : By.xpath: //button[text()='GO TO CART']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[text()='GO TO CART']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[text()='GO TO CART']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[text()='GO TO CART']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[text()='GO TO CART']]
 inside wait
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
@@ -352,21 +351,21 @@ Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
 Trying to find Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
 Found Element By : By.xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[@class='_2KpZ6l _2ObVJD _3AWRsL']]
 *** Running test method flipkartCheckOutTest...
 Trying to find Element By : By.xpath: //button[text()='Deliver Here']
 Found Element By : By.xpath: //button[text()='Deliver Here']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[text()='Deliver Here']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[text()='Deliver Here']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[text()='Deliver Here']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[text()='Deliver Here']]
 Trying to find Element By : By.xpath: //button[text()='CONTINUE']
 Found Element By : By.xpath: //button[text()='CONTINUE']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[text()='CONTINUE']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //button[text()='CONTINUE']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[text()='CONTINUE']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //button[text()='CONTINUE']]
 Trying to find Element By : By.xpath: //div[text()='Credit / Debit / ATM Card']
 Found Element By : By.xpath: //div[text()='Credit / Debit / ATM Card']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //div[text()='Credit / Debit / ATM Card']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (29cc391090487fdb4dc9c124b3550310)] -> xpath: //div[text()='Credit / Debit / ATM Card']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //div[text()='Credit / Debit / ATM Card']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (3be1f78db1b086ad75f41604608eb3d6)] -> xpath: //div[text()='Credit / Debit / ATM Card']]
 Trying to find Element By : By.xpath: //input[@name='cardNumber']
 Found Element By : By.xpath: //input[@name='cardNumber']
 Trying to find Element By : By.xpath: //span[text()='Not a valid card number']
@@ -374,12 +373,12 @@ Found Element By : By.xpath: //span[text()='Not a valid card number']
 Trying to find Element By : By.xpath: //span[text()='Not a valid card number']
 Found Element By : By.xpath: //span[text()='Not a valid card number']
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 12051
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 32729
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1616064049.237][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Mar 18, 2021 4:10:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1616150016.691][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Mar 19, 2021 4:03:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

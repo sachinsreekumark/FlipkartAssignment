@@ -39,7 +39,7 @@ public class FlipkartCartPageTest extends TestBase {
 		Thread.sleep(5000);
 		FlipkartItemDetailsPage=FlipkartHomePage.searchProductAndSelect();
 		FlipkartCartPage=FlipkartItemDetailsPage.clickAddToCartButton();
-		
+		Thread.sleep(5000);
 	  
 	  }
 	
